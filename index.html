@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Github Repo</title>
+    <style>
+        *{
+            /* margin: 0px; */
+            border: 0px;
+            padding: 0px;
+            font-family: monospace;
+            
+        }
+        .headline{
+            /* padding: 2px; */
+            border-radius: 30px;
+            font-size: larger;
+            padding: 5px;
+            width: 600px;
+            background: tomato;
+            box-shadow: 0px 0px 25px coral;
+        }
+        .t,h1{
+            text-align: center;
+        }
+        .list{
+            
+            border-radius: 20px;
+            box-shadow: 0px 0px 30px purple;
+            height: 335px;
+            width: 650px;
+            background: violet;
+            padding: 30px;
+        }
+        .element{
+            padding: 5px;
+            font-size: large;
+            margin: 5px;
+            border-radius: 10px;
+            background: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="headline">
+        <h1>Hello user!</h1>
+    <p class="t">This is my second git push. Before this i one, i pushed one file and to learn how delete a repository i deleted it. and now i gonna note some commands that are important to navigate through in this file.</p>
+    </div>
+
+    <ul class="list">
+        <li class="element">git init <-- this command is used to initialize git in a file</li>
+        <li class="element">git add . <-- is used to add all files in git repository </li>
+        <li class="element">git config --global user.email"YOUR EMAIL" <-- this is used to change ur git email address.</li>
+        <li class="element">git config --global user.name"YOUR NAME" <-- this is used to change ur git user name.</li>
+        <li class="element">git config -l <-- shows us user information and to escape that list press "w" and "q".</li>
+        <li class="element">git remote add origin https://github.com/RajdipRudra/my-first-github-repo.git <-- this is where ur file is gonna be.</li>
+        <li class="element">git push -u origin main <-- this command is used to send ur file in github and store it there.</li>
+                
+    </ul>
+</body>
+</html>
